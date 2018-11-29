@@ -1,0 +1,9 @@
+second 2: 
+
+pipdeptree is used to download dependecies in json file.
+pip install pipdeptree
+$ pipdeptree --json
+$ pipdeptree --json-tree(to obtain nested json)
+
+
+$ pipdeptree --reverse --packages itsdangerous,gnureadline(to check particular package installed or not)
